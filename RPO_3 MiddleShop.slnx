@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="RPO_3 MiddleShop/RPO_3 MiddleShop.vcxproj" />
+  <Project Path="RPO_3 MiddleShop/RPO_3 MiddleShop.vcxproj" Id="c8c08f88-a6d8-41be-8713-ec342161d26e" />
 </Solution>
