@@ -58,6 +58,7 @@ bool Login()
 					std::wcout << L"Добро пожаловать " << loginArr[i] << L"\n";
 					std::wcout << L"Ваш уровень доступа: " << statusArr[i] << L"\n";
 					currentId = userIdArr[i];
+					Sleep(2000);
 					currentStatus = statusArr[i];
 					return true;
 				}
@@ -102,15 +103,15 @@ void SuperAdminMenu()
 		}
 		else if (choose == L"4")
 		{
-
+			RemoveProduct();
 		}
 		else if (choose == L"5")
 		{
-
+			ChangePrice();
 		}
 		else if (choose == L"6")
 		{
-
+			ChangeStorage();
 		}
 		else if (choose == L"7")
 		{
@@ -122,7 +123,7 @@ void SuperAdminMenu()
 		}
 		else if (choose == L"0")
 		{
-
+			return;
 		}
 		else
 		{

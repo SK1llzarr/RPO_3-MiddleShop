@@ -25,3 +25,14 @@ bool IsNumber(const std::wstring& str)
 	}
 	return true;
 }
+bool IsNotSame(const std::wstring& chooseName, std::wstring* nameArr, size_t commonSize)
+{
+	for (size_t i = 0; i < commonSize; i++)
+	{
+		if (nameArr[i] == chooseName)
+		{
+			return false;
+		}
+	}
+	return true;
+}
