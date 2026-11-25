@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
+    <ClCompile Include="Accounts.cpp" />
     <ClCompile Include="Authorization.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Service.cpp" />
